@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/flow_1">
+
+    <fragment
+        android:id="@+id/flow_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="nl.mranderson.flutterplugindemo.testcases.bottomnav.DemoNativeFragment"
+        />
+    <fragment
+        android:id="@+id/flow_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="nl.mranderson.flutterplugindemo.testcases.bottomnav.DemoNativeFragment"
+        />
+
+    <fragment
+        android:id="@+id/demo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="nl.mranderson.flutterplugindemo.testcases.bottomnav.DemoFlutterFragment"
+        />
+</navigation>
